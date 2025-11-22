@@ -1,1 +1,1 @@
-bitcoin0,ethereum
+aaaabbbb,bbbbaaaa
