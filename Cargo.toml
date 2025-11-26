@@ -1,0 +1,18 @@
+[package]
+name = "hash-preimage"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wgpu = "22.1"
+pollster = "0.3"
+bytemuck = { version = "1.14", features = ["derive"] }
+
+[[bin]]
+name = "exercise05"
+path = "implementation/exercise05.rs"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
